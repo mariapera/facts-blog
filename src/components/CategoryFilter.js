@@ -6,7 +6,7 @@ function CategoryFilter({ setCurrentCategory }) {
 		<aside className='aside'>
 			<ul className='category-list'>
 				<li>
-					<Button className={'btn btn-all-category'} handleClick={() => setCurrentCategory('all')}>All</Button>
+					<Button className={'btn btn-large btn-all-category'} handleClick={() => setCurrentCategory('all')}>All</Button>
 				</li>
 				{CATEGORIES.map(category => (
 					<li key={category.name}>
